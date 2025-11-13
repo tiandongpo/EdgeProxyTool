@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>628</width>
+    <height>489</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>591</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QGroupBox" name="groupBox_2">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>300</y>
+       <width>541</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QGroupBox {
+    border: 2px solid #dee2e6;        /* 边框颜色 */
+    border-radius: 20px;               /* 圆角半径 */
+    margin-top: 1ex;                  /* 上边距 */
+    padding-top: 10px;                /* 内边距 */    	
+    font-weight: bold;                /* 字体粗细 */
+    font-size: 30px;                  /* 字体大小 */
+}</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QPushButton" name="pushButton_read">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>30</y>
+        <width>151</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-radius: 20px;
+    background-color: #1890FF;    /* 主蓝色背景 */
+    color: white;                 /* 白色文字 */
+    border: none;                 /* 无边框 */
+    font-weight: bold;            /* 粗体文字 */
+    padding: 8px 16px;            /* 内边距让按钮更饱满 */
+    font-size: 20px;              /* 字体大小 */
+}
+
+/* 鼠标悬停效果 */
+QPushButton:hover {
+    background-color: #40A9FF;    /* 稍亮一些的蓝色 */
+}
+
+/* 按钮按下效果 */
+QPushButton:pressed {
+    background-color: #096DD9;    /* 更深的蓝色 */
+}</string>
+      </property>
+      <property name="text">
+       <string>读取设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_apply">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>151</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-radius: 20px;
+    background-color: #00007f;    /* 主蓝色背景 */
+    color: white;                 /* 白色文字 */
+    border: none;                 /* 无边框 */
+    font-weight: bold;            /* 粗体文字 */
+    padding: 8px 16px;            /* 内边距让按钮更饱满 */
+    font-size: 20px;              /* 字体大小 */
+}
+
+/* 鼠标悬停效果 */
+QPushButton:hover {
+    background-color: #40A9FF;    /* 稍亮一些的蓝色 */
+}
+
+/* 按钮按下效果 */
+QPushButton:pressed {
+    background-color: #096DD9;    /* 更深的蓝色 */
+}</string>
+      </property>
+      <property name="text">
+       <string>应用设置</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_default">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>30</y>
+        <width>151</width>
+        <height>40</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+	border-radius: 20px;
+    background-color: #1890FF;    /* 主蓝色背景 */
+    color: white;                 /* 白色文字 */
+    border: none;                 /* 无边框 */
+    font-weight: bold;            /* 粗体文字 */
+    padding: 8px 16px;            /* 内边距让按钮更饱满 */
+    font-size: 20px;              /* 字体大小 */
+}
+
+/* 鼠标悬停效果 */
+QPushButton:hover {
+    background-color: #40A9FF;    /* 稍亮一些的蓝色 */
+}
+
+/* 按钮按下效果 */
+QPushButton:pressed {
+    background-color: #096DD9;    /* 更深的蓝色 */
+}</string>
+      </property>
+      <property name="text">
+       <string>恢复默认</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>20</y>
+       <width>541</width>
+       <height>271</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QGroupBox {
+    border: 2px solid #dee2e6;        /* 边框颜色 */
+    border-radius: 20px;               /* 圆角半径 */
+    margin-top: 1ex;                  /* 上边距 */
+    padding-top: 10px;                /* 内边距 */    		
+	background-color: #e9e9ee;    /* 浅灰色 */
+    font-weight: bold;                /* 字体粗细 */
+    font-size: 30px;                  /* 字体大小 */
+}</string>
+     </property>
+     <property name="title">
+      <string>internet设置</string>
+     </property>
+     <widget class="QCheckBox" name="checkBox_proxyEnable">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>451</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+	background-color: white;    /* 浅灰色 */
+    border-radius: 20px;               /* 圆角半径 */
+}</string>
+      </property>
+      <property name="text">
+       <string>为Lan使用代理服务器</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_autoDetect">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>220</y>
+        <width>451</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+	background-color: white;    /* 浅灰色 */
+    border-radius: 20px;               /* 圆角半径 */
+}</string>
+      </property>
+      <property name="text">
+       <string>自动检测设置</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_proxyServer">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>110</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">
+QLineEdit {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 0 8px;
+    background-color: white;
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>例如: 127.0.0.1:8080</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_exceptTable">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>170</y>
+        <width>291</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLineEdit {
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 0 8px;
+    background-color: white;
+}</string>
+      </property>
+      <property name="placeholderText">
+       <string>例如: localhost;127.0.0.1;*.local</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>110</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QLabel {
+	background-color: #e9e9ee;    /* 浅灰色 */
+    border-radius: 20px;               /* 圆角半径 */
+}</string>
+      </property>
+      <property name="text">
+       <string>代理服务器</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>170</y>
+        <width>131</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QWidget {
+	background-color: #e9e9ee;    /* 浅灰色 */
+    border-radius: 20px;               /* 圆角半径 */
+}</string>
+      </property>
+      <property name="text">
+       <string>例外列表</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>628</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
